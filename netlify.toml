@@ -1,0 +1,23 @@
+
+[[redirects]]
+  from = "/profile-page.html"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/landing-page.html"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/index"
+  status = 200
