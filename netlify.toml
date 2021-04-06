@@ -6,6 +6,12 @@
   force = true
 
 [[redirects]]
+  from = "/about.html"
+  to = "/about"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/register-page.html"
   to = "/"
   status = 301
