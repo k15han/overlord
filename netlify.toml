@@ -28,8 +28,4 @@
   to = "/"
   status = 301
   force = true
-
-[[redirects]]
-  from = "/*"
-  to = "/index"
-  status = 200
+  
