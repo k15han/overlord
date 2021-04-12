@@ -12,8 +12,8 @@
   force = true
 
 [[redirects]]
-  from = "/register-page.html"
-  to = "/"
+  from = "/register.html"
+  to = "/register-editors"
   status = 301
   force = true
 
