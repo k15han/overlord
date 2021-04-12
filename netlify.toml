@@ -12,7 +12,7 @@
   force = true
 
 [[redirects]]
-  from = "sections/register.html"
+  from = "/register.html"
   to = "/register-editors"
   status = 301
   force = true
@@ -28,4 +28,8 @@
   to = "/"
   status = 301
   force = true
-  
+
+[[redirects]]
+  from = "/*"
+  to = "/index"
+  status = 200
