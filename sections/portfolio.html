@@ -16,6 +16,7 @@
   <link href="../assets/css/nucleo-icons.css" rel="stylesheet" />
   <!-- CSS Files -->
   <link href="../assets/css/blk-design-system.css?v=1.0.0" rel="stylesheet" />
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
 </head>
  
 <body class="profile-page">
@@ -90,14 +91,13 @@
    </nav>
    <!-- End Navbar -->
    <div id="adobe-dc-view"></div>
-   <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
    <script type="text/javascript">
     document.addEventListener("adobe_dc_view_sdk.ready", function()
     {
         var adobeDCView = new AdobeDC.View({clientId: "56a972f2213d4510a58ca8db96c75b60", divId: "adobe-dc-view"});
         adobeDCView.previewFile(
        {
-          content:   {location: {url: "https://kishanchauhan/sections/kcr.pdf"}},
+          content:   {location: {url: "/kcr.pdf"}},
           metaData: {fileName: "kcr.pdf"}
        });
     });
