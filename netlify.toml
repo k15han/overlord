@@ -24,6 +24,11 @@
   force = true
 
 [[redirects]]
+  from = "/plugs/2020"
+  to = "/plugs.html"
+  status = 200
+
+[[redirects]]
   from = "/index.html"
   to = "/"
   status = 301
